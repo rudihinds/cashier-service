@@ -1,6 +1,6 @@
 def github_id = 'CHANGEME'
 // vvv DO NOT EDIT THE VARIABLES BETWEEN THESE MARKERS vvv //
-def namespace = '${github_id}'
+def namespace = github_id.toLowerCase()
 def git_commit     = ''
 def image_name     = 'sepractices/${github_id}-account-service'
 def cluster_name   = 'prod-ak-k8s-cluster'
