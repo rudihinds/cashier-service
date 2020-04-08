@@ -1,8 +1,8 @@
-def github_id = 'abhisheksr01'
+def github_id = 'CHANGE_ME'
 // vvv DO NOT EDIT THE VARIABLES BETWEEN THESE MARKERS vvv //
 def namespace = github_id.toLowerCase()
 def git_commit     = ''
-def image_name     = "sepractices/${github_id}-account-service"
+def image_name     = "sepractices/${github_id}-cashier-service"
 def cluster_name   = 'prod-ak-k8s-cluster'
 def git_repository = "https://github.com/${github_id}/cashier-service.git"
 def kaniko_image = 'gcr.io/kaniko-project/executor:debug-b0e7c0e8cd07ef3ad2b7181e0779af9fcb312f0b'
