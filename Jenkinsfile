@@ -10,6 +10,7 @@ def kubectl_image = 'sepractices/jenkins-eks-kubectl-deployer:0.1.0'
 def label = "build-${UUID.randomUUID().toString()}"
 // ^^^ DO NOT EDIT THE VARIABLES BETWEEN THESE MARKERS ^^^ //
 
+def build_pod_template = """
 kind: Pod
 metadata:
   name: build-pod
