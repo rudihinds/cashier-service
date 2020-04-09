@@ -1,4 +1,4 @@
-def github_id = 'CHANGE_ME'
+def github_id = 'rudihinds'
 // vvv DO NOT EDIT THE VARIABLES BETWEEN THESE MARKERS vvv //
 def namespace = github_id.toLowerCase()
 def git_commit     = ''
